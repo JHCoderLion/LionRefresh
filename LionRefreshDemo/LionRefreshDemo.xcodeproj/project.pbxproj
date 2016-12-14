@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAF1CB7E1E00E57700920E60 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF1CB7D1E00E57700920E60 /* main.m */; };
+		FAF1CB811E00E57700920E60 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF1CB801E00E57700920E60 /* AppDelegate.m */; };
+		FAF1CB841E00E57700920E60 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF1CB831E00E57700920E60 /* ViewController.m */; };
+		FAF1CB871E00E57700920E60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF1CB851E00E57700920E60 /* Main.storyboard */; };
+		FAF1CB8A1E00E57700920E60 /* LionRefreshDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FAF1CB881E00E57700920E60 /* LionRefreshDemo.xcdatamodeld */; };
+		FAF1CB8C1E00E57700920E60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF1CB8B1E00E57700920E60 /* Assets.xcassets */; };
+		FAF1CB8F1E00E57700920E60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF1CB8D1E00E57700920E60 /* LaunchScreen.storyboard */; };
+		FAF1CB9A1E00E57700920E60 /* LionRefreshDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF1CB991E00E57700920E60 /* LionRefreshDemoTests.m */; };
+		FAF1CBA51E00E57700920E60 /* LionRefreshDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAF1CBA41E00E57700920E60 /* LionRefreshDemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAF1CB961E00E57700920E60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAF1CB711E00E57700920E60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAF1CB781E00E57700920E60;
+			remoteInfo = LionRefreshDemo;
+		};
+		FAF1CBA11E00E57700920E60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAF1CB711E00E57700920E60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAF1CB781E00E57700920E60;
+			remoteInfo = LionRefreshDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAF1CB791E00E57700920E60 /* LionRefreshDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LionRefreshDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF1CB7D1E00E57700920E60 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAF1CB7F1E00E57700920E60 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FAF1CB801E00E57700920E60 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FAF1CB821E00E57700920E60 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FAF1CB831E00E57700920E60 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FAF1CB861E00E57700920E60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAF1CB891E00E57700920E60 /* LionRefreshDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LionRefreshDemo.xcdatamodel; sourceTree = "<group>"; };
+		FAF1CB8B1E00E57700920E60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAF1CB8E1E00E57700920E60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAF1CB901E00E57700920E60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAF1CB951E00E57700920E60 /* LionRefreshDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LionRefreshDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF1CB991E00E57700920E60 /* LionRefreshDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LionRefreshDemoTests.m; sourceTree = "<group>"; };
+		FAF1CB9B1E00E57700920E60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAF1CBA01E00E57700920E60 /* LionRefreshDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LionRefreshDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF1CBA41E00E57700920E60 /* LionRefreshDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LionRefreshDemoUITests.m; sourceTree = "<group>"; };
+		FAF1CBA61E00E57700920E60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAF1CB761E00E57700920E60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF1CB921E00E57700920E60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF1CB9D1E00E57700920E60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAF1CB701E00E57700920E60 = {
+			isa = PBXGroup;
+			children = (
+				FAF1CB7B1E00E57700920E60 /* LionRefreshDemo */,
+				FAF1CB981E00E57700920E60 /* LionRefreshDemoTests */,
+				FAF1CBA31E00E57700920E60 /* LionRefreshDemoUITests */,
+				FAF1CB7A1E00E57700920E60 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAF1CB7A1E00E57700920E60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAF1CB791E00E57700920E60 /* LionRefreshDemo.app */,
+				FAF1CB951E00E57700920E60 /* LionRefreshDemoTests.xctest */,
+				FAF1CBA01E00E57700920E60 /* LionRefreshDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAF1CB7B1E00E57700920E60 /* LionRefreshDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FAF1CB7F1E00E57700920E60 /* AppDelegate.h */,
+				FAF1CB801E00E57700920E60 /* AppDelegate.m */,
+				FAF1CB821E00E57700920E60 /* ViewController.h */,
+				FAF1CB831E00E57700920E60 /* ViewController.m */,
+				FAF1CB851E00E57700920E60 /* Main.storyboard */,
+				FAF1CB8B1E00E57700920E60 /* Assets.xcassets */,
+				FAF1CB8D1E00E57700920E60 /* LaunchScreen.storyboard */,
+				FAF1CB901E00E57700920E60 /* Info.plist */,
+				FAF1CB881E00E57700920E60 /* LionRefreshDemo.xcdatamodeld */,
+				FAF1CB7C1E00E57700920E60 /* Supporting Files */,
+			);
+			path = LionRefreshDemo;
+			sourceTree = "<group>";
+		};
+		FAF1CB7C1E00E57700920E60 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAF1CB7D1E00E57700920E60 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAF1CB981E00E57700920E60 /* LionRefreshDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAF1CB991E00E57700920E60 /* LionRefreshDemoTests.m */,
+				FAF1CB9B1E00E57700920E60 /* Info.plist */,
+			);
+			path = LionRefreshDemoTests;
+			sourceTree = "<group>";
+		};
+		FAF1CBA31E00E57700920E60 /* LionRefreshDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAF1CBA41E00E57700920E60 /* LionRefreshDemoUITests.m */,
+				FAF1CBA61E00E57700920E60 /* Info.plist */,
+			);
+			path = LionRefreshDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAF1CB781E00E57700920E60 /* LionRefreshDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF1CBA91E00E57700920E60 /* Build configuration list for PBXNativeTarget "LionRefreshDemo" */;
+			buildPhases = (
+				FAF1CB751E00E57700920E60 /* Sources */,
+				FAF1CB761E00E57700920E60 /* Frameworks */,
+				FAF1CB771E00E57700920E60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LionRefreshDemo;
+			productName = LionRefreshDemo;
+			productReference = FAF1CB791E00E57700920E60 /* LionRefreshDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAF1CB941E00E57700920E60 /* LionRefreshDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF1CBAC1E00E57700920E60 /* Build configuration list for PBXNativeTarget "LionRefreshDemoTests" */;
+			buildPhases = (
+				FAF1CB911E00E57700920E60 /* Sources */,
+				FAF1CB921E00E57700920E60 /* Frameworks */,
+				FAF1CB931E00E57700920E60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAF1CB971E00E57700920E60 /* PBXTargetDependency */,
+			);
+			name = LionRefreshDemoTests;
+			productName = LionRefreshDemoTests;
+			productReference = FAF1CB951E00E57700920E60 /* LionRefreshDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAF1CB9F1E00E57700920E60 /* LionRefreshDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF1CBAF1E00E57700920E60 /* Build configuration list for PBXNativeTarget "LionRefreshDemoUITests" */;
+			buildPhases = (
+				FAF1CB9C1E00E57700920E60 /* Sources */,
+				FAF1CB9D1E00E57700920E60 /* Frameworks */,
+				FAF1CB9E1E00E57700920E60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAF1CBA21E00E57700920E60 /* PBXTargetDependency */,
+			);
+			name = LionRefreshDemoUITests;
+			productName = LionRefreshDemoUITests;
+			productReference = FAF1CBA01E00E57700920E60 /* LionRefreshDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAF1CB711E00E57700920E60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "会跳舞的狮子";
+				TargetAttributes = {
+					FAF1CB781E00E57700920E60 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					FAF1CB941E00E57700920E60 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FAF1CB781E00E57700920E60;
+					};
+					FAF1CB9F1E00E57700920E60 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FAF1CB781E00E57700920E60;
+					};
+				};
+			};
+			buildConfigurationList = FAF1CB741E00E57700920E60 /* Build configuration list for PBXProject "LionRefreshDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAF1CB701E00E57700920E60;
+			productRefGroup = FAF1CB7A1E00E57700920E60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAF1CB781E00E57700920E60 /* LionRefreshDemo */,
+				FAF1CB941E00E57700920E60 /* LionRefreshDemoTests */,
+				FAF1CB9F1E00E57700920E60 /* LionRefreshDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAF1CB771E00E57700920E60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF1CB8F1E00E57700920E60 /* LaunchScreen.storyboard in Resources */,
+				FAF1CB8C1E00E57700920E60 /* Assets.xcassets in Resources */,
+				FAF1CB871E00E57700920E60 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF1CB931E00E57700920E60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF1CB9E1E00E57700920E60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAF1CB751E00E57700920E60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF1CB841E00E57700920E60 /* ViewController.m in Sources */,
+				FAF1CB811E00E57700920E60 /* AppDelegate.m in Sources */,
+				FAF1CB8A1E00E57700920E60 /* LionRefreshDemo.xcdatamodeld in Sources */,
+				FAF1CB7E1E00E57700920E60 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF1CB911E00E57700920E60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF1CB9A1E00E57700920E60 /* LionRefreshDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF1CB9C1E00E57700920E60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF1CBA51E00E57700920E60 /* LionRefreshDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAF1CB971E00E57700920E60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAF1CB781E00E57700920E60 /* LionRefreshDemo */;
+			targetProxy = FAF1CB961E00E57700920E60 /* PBXContainerItemProxy */;
+		};
+		FAF1CBA21E00E57700920E60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAF1CB781E00E57700920E60 /* LionRefreshDemo */;
+			targetProxy = FAF1CBA11E00E57700920E60 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAF1CB851E00E57700920E60 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAF1CB861E00E57700920E60 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAF1CB8D1E00E57700920E60 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAF1CB8E1E00E57700920E60 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAF1CBA71E00E57700920E60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FAF1CBA81E00E57700920E60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAF1CBAA1E00E57700920E60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LionRefreshDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.LionRefreshDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FAF1CBAB1E00E57700920E60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LionRefreshDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.LionRefreshDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FAF1CBAD1E00E57700920E60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LionRefreshDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.LionRefreshDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LionRefreshDemo.app/LionRefreshDemo";
+			};
+			name = Debug;
+		};
+		FAF1CBAE1E00E57700920E60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LionRefreshDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.LionRefreshDemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LionRefreshDemo.app/LionRefreshDemo";
+			};
+			name = Release;
+		};
+		FAF1CBB01E00E57700920E60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LionRefreshDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.LionRefreshDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LionRefreshDemo;
+			};
+			name = Debug;
+		};
+		FAF1CBB11E00E57700920E60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LionRefreshDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "--.LionRefreshDemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LionRefreshDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAF1CB741E00E57700920E60 /* Build configuration list for PBXProject "LionRefreshDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF1CBA71E00E57700920E60 /* Debug */,
+				FAF1CBA81E00E57700920E60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAF1CBA91E00E57700920E60 /* Build configuration list for PBXNativeTarget "LionRefreshDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF1CBAA1E00E57700920E60 /* Debug */,
+				FAF1CBAB1E00E57700920E60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAF1CBAC1E00E57700920E60 /* Build configuration list for PBXNativeTarget "LionRefreshDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF1CBAD1E00E57700920E60 /* Debug */,
+				FAF1CBAE1E00E57700920E60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAF1CBAF1E00E57700920E60 /* Build configuration list for PBXNativeTarget "LionRefreshDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF1CBB01E00E57700920E60 /* Debug */,
+				FAF1CBB11E00E57700920E60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FAF1CB881E00E57700920E60 /* LionRefreshDemo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FAF1CB891E00E57700920E60 /* LionRefreshDemo.xcdatamodel */,
+			);
+			currentVersion = FAF1CB891E00E57700920E60 /* LionRefreshDemo.xcdatamodel */;
+			path = LionRefreshDemo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FAF1CB711E00E57700920E60 /* Project object */;
+}
